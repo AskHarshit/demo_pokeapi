@@ -1,8 +1,8 @@
 Hi Team,
 
-My Name is Harshit Bhardwaj, currently working as an associate consultant QA in GlobalLogic India Pvt. Ltd. 
+My Name is Harshit Bhardwaj, currently working as an Associate Consultant QA in GlobalLogic India Pvt. Ltd. 
 
-This cypress project talks about Pokemon API "https://pokeapi.co/api/v2/" and here particulary https://pokeapi.co/api/v2/pokemon/{id or name}/.
+This cypress project talks about Pokemon API "https://pokeapi.co/api/v2/" and here particulary GET call "https://pokeapi.co/api/v2/pokemon/{id or name}/".
 
 Following are the things kept in mind in order to complete validation:
   1. For ID :
