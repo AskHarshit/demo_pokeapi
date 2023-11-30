@@ -1,10 +1,10 @@
 /// <reference types = "Cypress" />
 
-const dataJson = require('../../fixtures/testdata')
+//const dataJson = require('../../fixtures/testdata')
 //https://pokeapi.co/api/v2/pokemon/?offset=01&limit=35
 
 describe('pokemon api testing demo w.r.t name', ()=>{
-
+    
         it('Without providing a name', {tags: ['@regression']}, ()=>{
 
             cy.request({

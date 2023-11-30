@@ -3,14 +3,14 @@ pipeline {
     agent any
     
     parameters {
-        string(name: 'SPEC', defaultValue: 'cypress/e2e/webtests/**', description: 'Enter the script path that you want to execute')
+        string(name: 'SPEC', defaultValue: 'cypress/e2e/pokeapi/**', description: 'Enter the script path that you want to execute')
         choice(name: 'BROWSER', choices: ['chrome', 'edge'], description: 'Pick the web browser you want to use to run your scripts')
     }
     
     
-    options {
-        ansiColor('xterm')
-    }
+    // options {
+    //     ansiColor('xterm')
+    // }
 
 
     stages {
