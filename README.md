@@ -36,4 +36,3 @@ Following are the verions of the tools used in this project:
   4. Jenkins : 2.434
   5. Assertion : Chai
 
-** Jenkins file is yet to be pushed
