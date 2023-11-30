@@ -1,13 +1,13 @@
 Hi Team,
 
-My Name is Harshit Bhardwaj, currently working as an Associate Consultant QA in GlobalLogic India Pvt. Ltd. 
+My Name is Harshit Bhardwaj, currently working as an Associate Consultant QA in GlobalLogic India Pvt. Ltd. Let's talk more about experience while being on the call :)
 
 This cypress project talks about Pokemon API "https://pokeapi.co/api/v2/" and here particulary GET call "https://pokeapi.co/api/v2/pokemon/{id or name}/".
 
-Following are the things kept in mind in order to complete validation:
+Below are the things kept in mind in order to complete validation:
 
   1. For Name :
-     a. Validate the name of a pokemon (by saving the response first and then pass it)
+     a. Validate the name of a pokemon (by saving the response first and then pass it) - Parameterization
    
      b. Validate 'Moves' schema (nested json) of a pokemon
      
@@ -22,11 +22,9 @@ Following are the things kept in mind in order to complete validation:
 
   Note that the parameterization in ID related test cases can also achieved with no issues but validated only in 'Name'
 
+** Invalid name has been validated but that is just returning 404 so not added as the separate test case. This test cases has been validated in ID.
 
-   
-** Invalid name has been validated but that is just returning 404 so not added as the separate test case.
-
-Follwowing are the assertions kept in mind in order to perform the schema validations:
+Below are the assertions kept in mind in order to perform the schema validations:
   1. Status Code
   2. Key properties and it's value
   3. Properties of Json Array -> it's Index + Value
@@ -34,10 +32,10 @@ Follwowing are the assertions kept in mind in order to perform the schema valida
 
 ** As per the response received, above are the options we can take in order to completely verify the data received from the server.
 
-Following are the verions of the tools used in this project:
+Below are the verions of the tools used in this project:
   1. NodeJs : v20.4.0
   2. Git : 2.41.0.windows.1
   3. Cypress : 13.6.0
   4. Jenkins : 2.434
-  5. Assertion : Chai
+  5. Assertion : Chai library
 
