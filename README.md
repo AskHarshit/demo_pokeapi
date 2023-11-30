@@ -30,7 +30,7 @@ Below are the assertions kept in mind in order to perform the schema validations
   3. Properties of Json Array -> it's Index + Value
   4. Nested Json Array -> Index -> Index + Value
 
-** As per the response received, above are the options we can take in order to completely verify the data received from the server.
+** As per the response received, above are the options we can take into account in order to completely verify the data received from the server.
 
 Below are the verions of the tools used in this project:
   1. NodeJs : v20.4.0
