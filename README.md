@@ -5,7 +5,13 @@ My Name is Harshit Bhardwaj, currently working as an Associate Consultant QA in 
 This cypress project talks about Pokemon API "https://pokeapi.co/api/v2/" and here particulary GET call "https://pokeapi.co/api/v2/pokemon/{id or name}/".
 
 Following are the things kept in mind in order to complete validation:
-  1. For ID :
+
+  1. For Name :
+     a. Validate the name of a pokemon (by saving the response first and then pass it)
+   
+     b. Validate 'Moves' schema (nested json) of a pokemon
+     
+  2. For ID :
      a. Validated - Without providing an id
      
      b. Validated - Providing a valid id
@@ -14,10 +20,9 @@ Following are the things kept in mind in order to complete validation:
      
      d. Validated - Providing a non-existent id
 
-3. For Name :
-     a. Validated - Without providing a name
-   
-     b. Validated - Providing a valid name
+  Note that the parameterization in ID related test cases can also achieved with no issues but validated only in 'Name'
+
+
    
 ** Invalid name has been validated but that is just returning 404 so not added as the separate test case.
 
