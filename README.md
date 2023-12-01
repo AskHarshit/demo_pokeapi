@@ -37,5 +37,6 @@ Below are the verions of the tools used in this project:
   2. Git : 2.41.0.windows.1
   3. Cypress : 13.6.0
   4. Jenkins : 2.434
-  5. Assertion : Chai library
+  5. Assertion Library : Chai
+  6. MochaAwesome Report : 7.1.3
 
