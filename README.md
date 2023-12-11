@@ -15,11 +15,13 @@ Below are the assertions kept in mind in order to perform the schema validations
 Below are the things kept in mind in order to complete above validations:
 
   1. For Name : Status code, Strings, Arrays, Nested Array, API chaining
+     
      a. Validate the name of a pokemon (by saving the response first and then pass it) - Parameterization
    
      b. Validate 'Moves' schema (nested json) of a pokemon
      
   3. For ID : Status code, strings, Positive & Negative Test cases
+     
      a. Validated - Without providing an id
      
      b. Validated - Providing a valid id
