@@ -4,14 +4,22 @@ My Name is Harshit Bhardwaj, currently working as an Associate Consultant QA in 
 
 This cypress project talks about Pokemon API "https://pokeapi.co/api/v2/" and here particulary GET call "https://pokeapi.co/api/v2/pokemon/{id or name}/".
 
-Below are the things kept in mind in order to complete validation:
+Covered Validations :
+1. Check the response status code.
+2. Check the response body contains string.
+3. Check the response body contains array of the string.
+4. Check the response body contains nested string.
+5. Check the response values are as expected.
+6. API chaining
 
-  1. For Name :
+Below are the things kept in mind in order to complete validation for Name & ID:
+
+  1. For Name : Status code, Strings, Arrays, Nested Array, API chaining
      a. Validate the name of a pokemon (by saving the response first and then pass it) - Parameterization
    
      b. Validate 'Moves' schema (nested json) of a pokemon
      
-  2. For ID :
+  3. For ID : Status code, strings, Positive & Negative Test cases
      a. Validated - Without providing an id
      
      b. Validated - Providing a valid id
