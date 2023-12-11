@@ -4,7 +4,7 @@ My Name is Harshit Bhardwaj, currently working as an Associate Consultant QA in 
 
 This cypress project talks about Pokemon API "https://pokeapi.co/api/v2/" and here particulary GET call "https://pokeapi.co/api/v2/pokemon/{id or name}/".
 
-Covered Validations :
+Below are the assertions kept in mind in order to perform the schema validations:
 1. Check the response status code.
 2. Check the response body contains string.
 3. Check the response body contains array of the string.
@@ -12,7 +12,7 @@ Covered Validations :
 5. Check the response values are as expected.
 6. API chaining
 
-Below are the things kept in mind in order to complete validation for Name & ID:
+Below are the things kept in mind in order to complete above validations:
 
   1. For Name : Status code, Strings, Arrays, Nested Array, API chaining
      a. Validate the name of a pokemon (by saving the response first and then pass it) - Parameterization
@@ -32,13 +32,6 @@ Below are the things kept in mind in order to complete validation for Name & ID:
 
 ** Invalid name has been validated but that is just returning 404 so not added as the separate test case. This test cases has been validated in ID.
 
-Below are the assertions kept in mind in order to perform the schema validations:
-  1. Status Code
-  2. Key properties and it's value
-  3. Properties of Json Array -> it's Index + Value
-  4. Nested Json Array -> Index -> Index + Value
-
-** As per the response received, above are the options we can take into account in order to completely verify the data received from the server.
 
 Below are the verions of the tools used in this project:
   1. NodeJs : v20.4.0
